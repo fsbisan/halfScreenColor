@@ -10,9 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var topSquare: UIView!
+    @IBOutlet var bottomSquare: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        topSquare.backgroundColor = .green
+        bottomSquare.backgroundColor = .red
     }
 
 
